@@ -29,10 +29,14 @@ function App() {
 
       <ArticlesContainer />
 
-      <div className='flex items-center justify-center h-20'>
-        Challenge by&nbsp;<a className='text-blue-500' href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-        Coded by&nbsp;<a className='text-blue-500' href="https://github.com/yeisonvirtual">Yeison Rojas</a>.
-      </div>
+      <footer className='flex flex-col items-center justify-center h-20'>
+        <div>
+          Challenge by <a className='text-blue-500' href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+        </div>
+        <div>
+          Coded by <a className='text-blue-500' href="https://github.com/yeisonvirtual">Yeison Rojas</a>.
+        </div>
+      </footer>
 
     </main>
     </>
