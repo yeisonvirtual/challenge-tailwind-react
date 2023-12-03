@@ -1,9 +1,9 @@
-import { Header } from './components/header'
+import { Header } from './components/Header'
 import { MainArticle } from './components/MainArticle'
-import './index.css'
 import { NewContainer } from './components/NewContainer'
 import { ArticlesContainer } from './components/ArticlesContainer'
 import { useState } from 'react'
+import './index.css'
 
 function App() {
 
