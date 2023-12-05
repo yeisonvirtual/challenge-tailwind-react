@@ -31,7 +31,7 @@ export const ArticlesContainer = () => {
   ]
 
   return (
-    <section className="mt-6 md:flex md:flex-wrap">
+    <section className="mb-[64px] md:flex md:flex-wrap">
 
       {
         articles.map(item=>(

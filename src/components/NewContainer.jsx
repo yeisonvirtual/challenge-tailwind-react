@@ -3,7 +3,7 @@ import { NewArticle } from "./NewArticle"
 
 export const NewContainer = () => {
 
-  const initialState = [
+  const articles = [
     { 
       id:1,
       title: 'Hydrogen VS Electric Cars',
@@ -21,12 +21,11 @@ export const NewContainer = () => {
     },
   ]
 
-  const [articles, setArticles] = useState(initialState)
-
   return (
-    <aside className="bg-VeryDarkBlue text-OffWhite py-[28px] px-[20px] lg:wrap-2">
+    
+    <aside className="bg-VeryDarkBlue text-OffWhite lg:w-[350px] h-[510px] py-[28px] px-[20px] my-[64px] lg:my-[0px] lg:wrap-2">
       
-      <h1 className="text-SoftOrange text-4xl font-bold">New</h1>
+      <h1 className="text-SoftOrange text-4xl font-InterExtraBold">New</h1>
       
       {
         articles.map(article =>
@@ -39,5 +38,6 @@ export const NewContainer = () => {
       }
 
     </aside>
+    
   )
 }

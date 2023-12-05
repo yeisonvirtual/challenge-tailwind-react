@@ -4,7 +4,7 @@ import imageDesktop from '../assets/images/image-web-3-desktop.jpg'
 export const MainArticle = () => {
   return (
 
-    <section className='mb-12'>
+    <section className='mb-12 lg:w-[730px] xl:w-full'>
 
       <picture className='flex justify-center'>
         <source media="(max-width: 640px)" srcSet={imageMobile} />
@@ -14,11 +14,11 @@ export const MainArticle = () => {
 
       <div className='sm:flex'>
 
-        <div className='flex-1 py-6 px-2 text-center'>
-          <h2 className='text-[40px] font-bold sm:text-[48px] leading-none'>The Bright Future of Web 3.0?</h2>
+        <div className='flex-1 pt-[40px] px-2'>
+          <h2 className='text-[40px] sm:text-[54px] leading-none font-InterExtraBold'>The Bright Future of Web 3.0?</h2>
         </div>
 
-        <div className='flex-1 pt-9 px-4'>
+        <div className='flex-1 pt-9 px-4 font-InterRegular'>
           <p className='text-[13px] mb-10 sm:text-[15px]'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
           But is it really fulfilling its promise?</p>
           <button className='bg-SoftRed w-[185px] h-[48px] uppercase text-OffWhite hover:bg-VeryDarkBlue'>Read more</button>

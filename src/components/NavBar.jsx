@@ -14,7 +14,7 @@ export const NavBar = () => {
 
     <>
       
-      <div onClick={handleClick} className={`${menuClicked ? 'hidden' : ''} sm:hidden bg-gray-600/50 backdrop-blur-sm min-h-screen fixed w-full top-0 left-0 right-0`}></div>
+      <div onClick={handleClick} className={`${menuClicked ? 'hidden' : ''} sm:hidden fixed top-0 left-0 right-0 w-full h-full bg-gray-600/50 backdrop-blur-sm`}></div>
       
       <nav>
         <ul 
@@ -23,9 +23,10 @@ export const NavBar = () => {
         fixed top-0 right-0 h-full
         w-[256px] text-[16px] p-[24px]
         bg-white
+        font-interRegular
         sm:flex
-        sm:text-[16px]
-        sm:w-[438px]
+        sm:text-[18px]
+        sm:w-[440px]
         sm:place-content-around
         sm:relative sm:h-auto sm:p-0
         `}>

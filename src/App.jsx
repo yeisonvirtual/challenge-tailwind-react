@@ -12,7 +12,7 @@ function App() {
       
       <Header />
 
-      <main className='px-4'>
+      <main className='px-[16px] sm:px-[50px] lg:px-[165px]'>
 
         <div className='lg:flex lg:gap-8'>
           <MainArticle />
